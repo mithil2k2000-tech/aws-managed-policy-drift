@@ -1,7 +1,9 @@
 # A one-way ratchet: seven years of change in AWS managed IAM policies
 
+📄 **Paper (PDF): [aws-managed-policy-drift.pdf](aws-managed-policy-drift.pdf)**
+
 Longitudinal analysis of every AWS managed policy change recorded by the public
-[MAMIP/IAMTrail](https://github.com/z0ph/MAMIP) archive since February 2019. Paper: [`paper/main.pdf`](paper/main.pdf).
+[MAMIP/IAMTrail](https://github.com/z0ph/MAMIP) archive since February 2019.
 
 * Managed policies grew from 515 (June 2019) to 1,667 (Oct 2026); listed actions grew 6.6× to 65,873.
 * Of 2,992 modifications that changed granted actions, **91% only added**, 3% only removed; 28,632 grants added vs 1,796 removed.
