@@ -1,0 +1,321 @@
+{
+ "snapshots": [
+  {
+   "snapshot": "2019-06-01",
+   "policies": 515,
+   "actions_total": 9923,
+   "median_actions": 7.0,
+   "p95_actions": 62.0,
+   "full_admin": 1,
+   "with_service_wildcard": 164,
+   "with_partial_wildcard": 145,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.6923743500866552,
+   "with_privesc": 24,
+   "with_privesc_attachable": 14,
+   "label": "2019"
+  },
+  {
+   "snapshot": "2020-06-01",
+   "policies": 676,
+   "actions_total": 13458,
+   "median_actions": 7.0,
+   "p95_actions": 61.25,
+   "full_admin": 1,
+   "with_service_wildcard": 197,
+   "with_partial_wildcard": 178,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.655282817502668,
+   "with_privesc": 20,
+   "with_privesc_attachable": 12,
+   "label": "2020"
+  },
+  {
+   "snapshot": "2021-06-01",
+   "policies": 865,
+   "actions_total": 18538,
+   "median_actions": 8.0,
+   "p95_actions": 66.79999999999995,
+   "full_admin": 1,
+   "with_service_wildcard": 239,
+   "with_partial_wildcard": 206,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.6155228171038448,
+   "with_privesc": 22,
+   "with_privesc_attachable": 14,
+   "label": "2021"
+  },
+  {
+   "snapshot": "2022-06-01",
+   "policies": 991,
+   "actions_total": 23432,
+   "median_actions": 8.0,
+   "p95_actions": 69.5,
+   "full_admin": 1,
+   "with_service_wildcard": 262,
+   "with_partial_wildcard": 216,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.5788581119276427,
+   "with_privesc": 22,
+   "with_privesc_attachable": 14,
+   "label": "2022"
+  },
+  {
+   "snapshot": "2023-06-01",
+   "policies": 1140,
+   "actions_total": 28881,
+   "median_actions": 8.0,
+   "p95_actions": 75.04999999999995,
+   "full_admin": 1,
+   "with_service_wildcard": 281,
+   "with_partial_wildcard": 236,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.5534403669724771,
+   "with_privesc": 22,
+   "with_privesc_attachable": 14,
+   "label": "2023"
+  },
+  {
+   "snapshot": "2024-06-01",
+   "policies": 1257,
+   "actions_total": 35195,
+   "median_actions": 9.0,
+   "p95_actions": 77.60000000000014,
+   "full_admin": 1,
+   "with_service_wildcard": 296,
+   "with_partial_wildcard": 247,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.5310712924132672,
+   "with_privesc": 22,
+   "with_privesc_attachable": 14,
+   "label": "2024"
+  },
+  {
+   "snapshot": "2025-06-01",
+   "policies": 1414,
+   "actions_total": 44319,
+   "median_actions": 10.0,
+   "p95_actions": 85.34999999999991,
+   "full_admin": 1,
+   "with_service_wildcard": 306,
+   "with_partial_wildcard": 259,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.4950029394473839,
+   "with_privesc": 22,
+   "with_privesc_attachable": 14,
+   "label": "2025"
+  },
+  {
+   "snapshot": "2026-06-01",
+   "policies": 1568,
+   "actions_total": 53139,
+   "median_actions": 10.0,
+   "p95_actions": 87.64999999999986,
+   "full_admin": 2,
+   "with_service_wildcard": 322,
+   "with_partial_wildcard": 278,
+   "with_not_action": 1,
+   "share_allow_stmt_resource_star": 0.4920131691257163,
+   "with_privesc": 24,
+   "with_privesc_attachable": 16,
+   "label": "2026"
+  },
+  {
+   "snapshot": "latest",
+   "policies": 1667,
+   "actions_total": 65873,
+   "median_actions": 10.0,
+   "p95_actions": 97.69999999999982,
+   "full_admin": 2,
+   "with_service_wildcard": 326,
+   "with_partial_wildcard": 285,
+   "with_not_action": 2,
+   "share_allow_stmt_resource_star": 0.475854584915898,
+   "with_privesc": 24,
+   "with_privesc_attachable": 16,
+   "label": "Oct 2026"
+  }
+ ],
+ "modifications": 11107,
+ "substantive": 2992,
+ "type_share": {
+  "expand": 0.9101,
+  "both": 0.0561,
+  "contract": 0.0338
+ },
+ "type_counts": {
+  "expand": 2723,
+  "both": 168,
+  "contract": 101
+ },
+ "added_actions": 28632,
+ "removed_actions": 1796,
+ "events_adding_wildcards": 207,
+ "rstar_up": 756,
+ "rstar_down": 58,
+ "privesc_gains": [
+  {
+   "date": "2019-05-22",
+   "policy": "AWSCloudTrailFullAccess",
+   "privesc_gained": "iam:PassRole"
+  },
+  {
+   "date": "2021-01-14",
+   "policy": "AdministratorAccess-Amplify",
+   "privesc_gained": "iam:AttachRolePolicy;iam:PutRolePolicy"
+  },
+  {
+   "date": "2021-07-27",
+   "policy": "AdministratorAccess-Amplify",
+   "privesc_gained": "iam:CreatePolicyVersion;iam:PassRole"
+  },
+  {
+   "date": "2021-09-24",
+   "policy": "AdministratorAccess-Amplify",
+   "privesc_gained": "iam:UpdateAssumeRolePolicy;lambda:UpdateFunctionCode"
+  }
+ ],
+ "new_policies_by_year": {
+  "2019": 636,
+  "2020": 176,
+  "2021": 144,
+  "2022": 119,
+  "2023": 150,
+  "2024": 154,
+  "2025": 135,
+  "2026": 155
+ },
+ "cohort_2020": {
+  "n": 675,
+  "grew": 0.4266666666666667,
+  "shrank": 0.01037037037037037,
+  "actions_2020": 13381,
+  "actions_now": 26539
+ },
+ "latest_full_wildcard": [
+  "AWSMcpServiceActionsFullAccess",
+  "AdministratorAccess"
+ ],
+ "latest_privesc": [
+  {
+   "policy": "AWSDataPipelineRole",
+   "kind": "unknown (removed)",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AWSElasticBeanstalkFullAccess",
+   "kind": "unknown (removed)",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AWSElasticBeanstalkService",
+   "kind": "service-role",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AWSGlueConsoleFullAccess",
+   "kind": "other",
+   "privesc": "glue:UpdateDevEndpoint"
+  },
+  {
+   "policy": "AWSGlueConsoleSageMakerNotebookFullAccess",
+   "kind": "other",
+   "privesc": "glue:UpdateDevEndpoint"
+  },
+  {
+   "policy": "AWSGlueServiceNotebookRole",
+   "kind": "service-role",
+   "privesc": "glue:UpdateDevEndpoint"
+  },
+  {
+   "policy": "AWSGlueServiceRole",
+   "kind": "service-role",
+   "privesc": "glue:UpdateDevEndpoint"
+  },
+  {
+   "policy": "AWSLambdaFullAccess",
+   "kind": "unknown (removed)",
+   "privesc": "iam:PassRole;lambda:UpdateFunctionCode"
+  },
+  {
+   "policy": "AWSLambda_FullAccess",
+   "kind": "other",
+   "privesc": "lambda:UpdateFunctionCode"
+  },
+  {
+   "policy": "AWSOpsWorksFullAccess",
+   "kind": "unknown (removed)",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AWSOpsWorksRegisterCLI",
+   "kind": "unknown (removed)",
+   "privesc": "iam:AddUserToGroup;iam:CreateAccessKey;iam:PassRole;iam:PutUserPolicy"
+  },
+  {
+   "policy": "AWSOpsWorksRole",
+   "kind": "unknown (removed)",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AdministratorAccess",
+   "kind": "other",
+   "privesc": "glue:UpdateDevEndpoint;iam:AddUserToGroup;iam:AttachGroupPolicy;iam:AttachRolePolicy;iam:AttachUserPolicy;iam:CreateAccessKey;iam:CreateLoginProfile;iam:CreatePolicyVersion;iam:PassRole;iam:PutGroupPolicy;iam:PutRolePolicy;iam:PutUserPolicy;iam:SetDefaultPolicyVersion;iam:UpdateAssumeRolePolicy;iam:UpdateLoginProfile;lambda:UpdateFunctionCode"
+  },
+  {
+   "policy": "AdministratorAccess-Amplify",
+   "kind": "other",
+   "privesc": "iam:AttachRolePolicy;iam:CreatePolicyVersion;iam:PassRole;iam:PutRolePolicy;iam:UpdateAssumeRolePolicy;lambda:UpdateFunctionCode"
+  },
+  {
+   "policy": "AmazonDynamoDBFullAccesswithDataPipeline",
+   "kind": "other",
+   "privesc": "iam:PassRole;lambda:UpdateFunctionCode"
+  },
+  {
+   "policy": "AmazonEC2ContainerServiceFullAccess",
+   "kind": "unknown (removed)",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AmazonEC2SpotFleetRole",
+   "kind": "unknown (removed)",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AmazonElasticMapReduceFullAccess",
+   "kind": "other",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "AmazonElasticMapReduceRole",
+   "kind": "service-role",
+   "privesc": "iam:PassRole"
+  },
+  {
+   "policy": "DataScientist",
+   "kind": "job-function",
+   "privesc": "lambda:UpdateFunctionCode"
+  },
+  {
+   "policy": "IAMFullAccess",
+   "kind": "other",
+   "privesc": "iam:AddUserToGroup;iam:AttachGroupPolicy;iam:AttachRolePolicy;iam:AttachUserPolicy;iam:CreateAccessKey;iam:CreateLoginProfile;iam:CreatePolicyVersion;iam:PassRole;iam:PutGroupPolicy;iam:PutRolePolicy;iam:PutUserPolicy;iam:SetDefaultPolicyVersion;iam:UpdateAssumeRolePolicy;iam:UpdateLoginProfile"
+  },
+  {
+   "policy": "SageMakerStudioAdminIAMPermissiveExecutionPolicy",
+   "kind": "other",
+   "privesc": "glue:UpdateDevEndpoint"
+  },
+  {
+   "policy": "SageMakerStudioUserIAMPermissiveExecutionPolicy",
+   "kind": "other",
+   "privesc": "glue:UpdateDevEndpoint"
+  },
+  {
+   "policy": "SystemAdministrator",
+   "kind": "job-function",
+   "privesc": "lambda:UpdateFunctionCode"
+  }
+ ]
+}
