@@ -1,0 +1,21 @@
+{
+  "title": "A One-Way Ratchet: Seven Years of Change in AWS Managed IAM Policies",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Preprint, code, data and results for: A One-Way Ratchet: Seven Years of Change in AWS Managed IAM Policies. Not peer reviewed. The PDF is aws-managed-policy-drift.pdf in this repository.",
+  "creators": [
+    {
+      "name": "Nagabathula, Mithil",
+      "affiliation": "University of East London"
+    }
+  ],
+  "keywords": [
+    "AWS IAM",
+    "least privilege",
+    "cloud security",
+    "access control"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "access_right": "open"
+}
