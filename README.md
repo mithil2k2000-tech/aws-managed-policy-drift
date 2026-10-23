@@ -1,6 +1,6 @@
 # A one-way ratchet: seven years of change in AWS managed IAM policies
 
-📄 **Paper (PDF): [aws-managed-policy-drift.pdf](aws-managed-policy-drift.pdf)**
+📄 **Paper (PDF): [aws-managed-policy-drift.pdf](aws-managed-policy-drift.pdf)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23593032.svg)](https://doi.org/10.5281/zenodo.23593032)
 
 Longitudinal analysis of every AWS managed policy change recorded by the public
 [MAMIP/IAMTrail](https://github.com/z0ph/MAMIP) archive since February 2019.
