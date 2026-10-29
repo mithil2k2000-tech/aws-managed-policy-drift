@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\caption{AWS managed policies on 1 June each year and in October 2026: count, actions listed in Allow statements (total, median and 95th percentile per policy), policies using a whole-service wildcard such as \texttt{s3:*}, and the share of Allow statements whose resource is \texttt{*}.}
+\label{tab:snap}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Snapshot & Policies & Actions listed & Median & 95th pct. & Service wildcard & Allow stmts on \texttt{*} \\
+\midrule
+2019 & 515 & 9,923 & 7 & 62 & 164 & 69\% \\
+2020 & 676 & 13,458 & 7 & 61 & 197 & 66\% \\
+2021 & 865 & 18,538 & 8 & 67 & 239 & 62\% \\
+2022 & 991 & 23,432 & 8 & 70 & 262 & 58\% \\
+2023 & 1140 & 28,881 & 8 & 75 & 281 & 55\% \\
+2024 & 1257 & 35,195 & 9 & 78 & 296 & 53\% \\
+2025 & 1414 & 44,319 & 10 & 85 & 306 & 50\% \\
+2026 & 1568 & 53,139 & 10 & 88 & 322 & 49\% \\
+Oct 2026 & 1667 & 65,873 & 10 & 98 & 326 & 48\% \\
+\bottomrule
+\end{tabular}
+\end{table*}

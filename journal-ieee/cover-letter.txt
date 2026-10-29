@@ -1,0 +1,22 @@
+Dear Editor,
+
+Please consider the enclosed manuscript, "A One-Way Ratchet: Seven Years of Change in AWS Managed IAM Policies", for publication in IEEE Access.
+
+Millions of AWS identities rely on managed policies that AWS writes and maintains. When AWS changes one, every identity it is attached to changes with it, without action or review by the customer. The manuscript is, to our knowledge, the first systematic longitudinal study of these changes. It analyses a public archive that has recorded every AWS managed policy daily since 2019 (1,669 policies, 11,107 modifications).
+
+The main findings are:
+- 91% of substantive modifications only added permissions, and grants added outnumbered grants removed sixteen to one, in every policy category;
+- after expanding wildcards, an estimated 4,700 permissions were gained by 156 policies that were never edited (strict lower bound: 204 permissions in 15 policies), a channel of growth that no change notice records;
+- policies granting permissions-management actions on all resources without conditions nearly doubled (104 to 193), including job-function policies attached to people;
+- AWS's ReadOnlyAccess policy grants reads of customer data (S3 objects, DynamoDB items, SSM parameters, logs) and an action that changes queue state;
+- a 2026 policy grants every action on every resource, constrained only by a new condition key for AI-agent requests.
+
+The paper ends with concrete recommendations for cloud security teams. Analysis code and results are public and archived (https://doi.org/10.5281/zenodo.23593032), and every number is produced by the released scripts. We believe the topic, cloud identity security with direct practical impact, suits the broad engineering readership of IEEE Access.
+
+A preprint of an earlier, shorter version is available on Zenodo and SSRN. The manuscript is not under consideration elsewhere. The author declares no conflict of interest, and the use of generative AI is declared in the manuscript.
+
+Yours sincerely,
+Mithil Nagabathula
+School of Architecture, Computing and Engineering, University of East London
+mithilnishu2000@gmail.com
+ORCID: 0009-0005-1722-1138

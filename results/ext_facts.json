@@ -1,0 +1,334 @@
+{
+ "snapshots": [
+  {
+   "snapshot": "2020-06-01",
+   "policies": 676,
+   "explicit_total": 13294,
+   "effective_total": 32386,
+   "catalog_size": 3387,
+   "perm_mgmt_uncond_policies": 104,
+   "perm_mgmt_uncond_attachable": 62,
+   "perm_mgmt_uncond_jobfn": 4
+  },
+  {
+   "snapshot": "2021-06-01",
+   "policies": 865,
+   "explicit_total": 18268,
+   "effective_total": 42964,
+   "catalog_size": 4489,
+   "perm_mgmt_uncond_policies": 126,
+   "perm_mgmt_uncond_attachable": 76,
+   "perm_mgmt_uncond_jobfn": 4
+  },
+  {
+   "snapshot": "2022-06-01",
+   "policies": 991,
+   "explicit_total": 22998,
+   "effective_total": 52350,
+   "catalog_size": 5647,
+   "perm_mgmt_uncond_policies": 133,
+   "perm_mgmt_uncond_attachable": 80,
+   "perm_mgmt_uncond_jobfn": 4
+  },
+  {
+   "snapshot": "2023-06-01",
+   "policies": 1140,
+   "explicit_total": 28317,
+   "effective_total": 62653,
+   "catalog_size": 6817,
+   "perm_mgmt_uncond_policies": 139,
+   "perm_mgmt_uncond_attachable": 81,
+   "perm_mgmt_uncond_jobfn": 4
+  },
+  {
+   "snapshot": "2024-06-01",
+   "policies": 1257,
+   "explicit_total": 34385,
+   "effective_total": 75750,
+   "catalog_size": 8298,
+   "perm_mgmt_uncond_policies": 148,
+   "perm_mgmt_uncond_attachable": 88,
+   "perm_mgmt_uncond_jobfn": 4
+  },
+  {
+   "snapshot": "2025-06-01",
+   "policies": 1414,
+   "explicit_total": 43019,
+   "effective_total": 92246,
+   "catalog_size": 9724,
+   "perm_mgmt_uncond_policies": 164,
+   "perm_mgmt_uncond_attachable": 101,
+   "perm_mgmt_uncond_jobfn": 5
+  },
+  {
+   "snapshot": "2026-06-01",
+   "policies": 1568,
+   "explicit_total": 51454,
+   "effective_total": 127297,
+   "catalog_size": 11299,
+   "perm_mgmt_uncond_policies": 182,
+   "perm_mgmt_uncond_attachable": 117,
+   "perm_mgmt_uncond_jobfn": 6
+  },
+  {
+   "snapshot": "2026-10-15",
+   "policies": 1667,
+   "explicit_total": 63870,
+   "effective_total": 148941,
+   "catalog_size": 11803,
+   "perm_mgmt_uncond_policies": 193,
+   "perm_mgmt_uncond_attachable": 126,
+   "perm_mgmt_uncond_jobfn": 7
+  }
+ ],
+ "cohort": {
+  "n": 675,
+  "explicit": [
+   13218,
+   26246
+  ],
+  "effective": [
+   32295,
+   69997
+  ],
+  "unchanged_n": 357,
+  "unchanged_with_wild": 181,
+  "unchanged_grew_effective": 157,
+  "unchanged_effective_gain": 13164,
+  "grew_effective_pct": 67.6,
+  "shrank_effective_pct": 0.6
+ },
+ "top_silent": {
+  "AdministratorAccess": [
+   3387,
+   11803
+  ],
+  "AWSElasticBeanstalkFullAccess": [
+   782,
+   1274
+  ],
+  "AWSDeepRacerServiceRolePolicy": [
+   111,
+   430
+  ],
+  "AmazonEC2FullAccess": [
+   407,
+   641
+  ],
+  "AmazonEC2RoleforDataPipelineRole": [
+   315,
+   531
+  ],
+  "AmazonElasticMapReduceforEC2Role": [
+   332,
+   545
+  ],
+  "AWSLambdaFullAccess": [
+   253,
+   455
+  ],
+  "AWSDataPipelineRole": [
+   244,
+   426
+  ]
+ },
+ "readonly": {
+  "ReadOnlyAccess": {
+   "2020-06-01": {
+    "effective": 1877,
+    "sensitive": [
+     "athena:GetQueryResults",
+     "cloudformation:GetTemplate",
+     "codecommit:GetFile",
+     "dynamodb:GetItem",
+     "dynamodb:Query",
+     "dynamodb:Scan",
+     "ec2:GetPasswordData",
+     "ecr:BatchGetImage",
+     "kinesis:GetRecords",
+     "lambda:GetFunction",
+     "logs:FilterLogEvents",
+     "logs:GetLogEvents",
+     "rds:DownloadDBLogFilePortion",
+     "s3:GetObject",
+     "sqs:ReceiveMessage",
+     "ssm:GetParameter",
+     "ssm:GetParameters"
+    ]
+   },
+   "2026-10-15": {
+    "effective": 6186,
+    "sensitive": [
+     "athena:GetQueryResults",
+     "cloudformation:GetTemplate",
+     "codecommit:GetFile",
+     "dynamodb:GetItem",
+     "dynamodb:Query",
+     "dynamodb:Scan",
+     "ec2:GetPasswordData",
+     "ecr:BatchGetImage",
+     "kinesis:GetRecords",
+     "lambda:GetFunction",
+     "logs:FilterLogEvents",
+     "logs:GetLogEvents",
+     "rds:DownloadDBLogFilePortion",
+     "s3:GetObject",
+     "sqs:ReceiveMessage",
+     "ssm:GetParameter",
+     "ssm:GetParameters"
+    ]
+   }
+  },
+  "ViewOnlyAccess": {
+   "2020-06-01": {
+    "effective": 647,
+    "sensitive": []
+   },
+   "2026-10-15": {
+    "effective": 1679,
+    "sensitive": []
+   }
+  },
+  "SecurityAudit": {
+   "2020-06-01": {
+    "effective": 968,
+    "sensitive": [
+     "cloudformation:GetTemplate",
+     "rds:DownloadDBLogFilePortion"
+    ]
+   },
+   "2026-10-15": {
+    "effective": 2769,
+    "sensitive": [
+     "cloudformation:GetTemplate",
+     "rds:DownloadDBLogFilePortion"
+    ]
+   }
+  }
+ },
+ "direction_by_kind": [
+  {
+   "kind": "job-function",
+   "both": 8,
+   "contract": 5,
+   "expand": 60,
+   "total": 73,
+   "expand_share": 0.822
+  },
+  {
+   "kind": "other",
+   "both": 109,
+   "contract": 59,
+   "expand": 1521,
+   "total": 1689,
+   "expand_share": 0.901
+  },
+  {
+   "kind": "service-linked",
+   "both": 37,
+   "contract": 18,
+   "expand": 763,
+   "total": 818,
+   "expand_share": 0.933
+  },
+  {
+   "kind": "service-role",
+   "both": 10,
+   "contract": 11,
+   "expand": 336,
+   "total": 357,
+   "expand_share": 0.941
+  },
+  {
+   "kind": "unknown (removed)",
+   "both": 4,
+   "contract": 8,
+   "expand": 43,
+   "total": 55,
+   "expand_share": 0.782
+  }
+ ],
+ "top_services_added": [
+  [
+   "ec2",
+   2016
+  ],
+  [
+   "sagemaker",
+   762
+  ],
+  [
+   "s3",
+   751
+  ],
+  [
+   "glue",
+   566
+  ],
+  [
+   "bedrock",
+   517
+  ],
+  [
+   "datazone",
+   423
+  ],
+  [
+   "iam",
+   415
+  ],
+  [
+   "bedrock-agentcore",
+   412
+  ],
+  [
+   "logs",
+   372
+  ],
+  [
+   "organizations",
+   352
+  ],
+  [
+   "connect",
+   287
+  ],
+  [
+   "cloudformation",
+   283
+  ],
+  [
+   "iot",
+   274
+  ],
+  [
+   "ssm",
+   272
+  ],
+  [
+   "kms",
+   263
+  ]
+ ],
+ "services_with_additions": 408,
+ "cadence": {
+  "policies_with_substantive_change": 815,
+  "median_changes": 2.0,
+  "p90_changes": 7.0,
+  "max_changes": [
+   "ReadOnlyAccess",
+   104
+  ],
+  "median_gap_days": 90.0
+ },
+ "substantive_by_year": {
+  "2019": 287,
+  "2020": 397,
+  "2021": 265,
+  "2022": 334,
+  "2023": 386,
+  "2024": 364,
+  "2025": 441,
+  "2026": 518
+ }
+}

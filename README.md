@@ -30,3 +30,7 @@ reviewed the code and results, and is responsible for the content.
 ## Licence
 
 MIT (code). The MAMIP archive is GPL-3.0 and is not included.
+
+## Journal version
+
+An extended version prepared for journal submission is in `journal-ieee/` (LaTeX source and PDF). Additional analyses: `src/extend.py` (where present), with outputs in `results/`.
